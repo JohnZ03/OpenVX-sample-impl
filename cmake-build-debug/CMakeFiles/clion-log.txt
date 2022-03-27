@@ -1,0 +1,48 @@
+/mnt/space/system/ide/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/mnt/space/system/ide/bin/ninja/linux/ninja -G Ninja -S /mnt/space/work/OpenVX-sample-impl -B /mnt/space/work/OpenVX-sample-impl/cmake-build-debug
+CMake Deprecation Warning at CMakeLists.txt:21 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- ===== OpenVX version: 1.3 =====
+-- ** ** ** Enable Languages ** ** **
+-- The C compiler identification is GNU 9.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- The CXX compiler identification is GNU 9.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- 
+
+** ** ** COMPILER Definitions ** ** **
+-- CMAKE_C_COMPILER        = /usr/bin/cc
+-- CMAKE_C_FLAGS           =  -m32 -march=core2 -fPIC -std=gnu99
+-- 
+-- CMAKE_CXX_COMPILER      = /usr/bin/c++
+-- CMAKE_CXX_FLAGS         =  -m32 -march=core2 -fPIC
+-- 
+-- CMAKE_EXE_LINKER_FLAGS  = -Wl,--enable-new-dtags
+-- 
+-- CMAKE_BUILD_TOOL        = /mnt/space/system/ide/bin/ninja/linux/ninja
+
+** ** ** Selected Feature Sets ** ** **
+
+** ** ** Selected Extensions ** ** **
+
+CMake Error at CMakeLists.txt:211 (message):
+  Repsoitory submodules, required for a correct build, could not be found or
+  are empty.  Have you checked out the repository's Git submodules (`git
+  submodule update --init --recursive`)?
+
+
+-- Configuring incomplete, errors occurred!
+See also "/mnt/space/work/OpenVX-sample-impl/cmake-build-debug/CMakeFiles/CMakeOutput.log".
